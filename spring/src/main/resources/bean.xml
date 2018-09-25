@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+        <bean id="WelcomImp" class="com.old.WelcomImp">
+            <constructor-arg type="java.lang.String" value="qqq" index="0"/>
+            <constructor-arg type="java.lang.Integer" value="444" index="1"/>
+            <property name="name" value="tom"/>
+            <property name="bs" ref="byeservice"/>
+        </bean>
+    <bean id="byeservice" class="com.old.Byeserviceimp">
+        <property name="bye" value="byebye"/>
+    </bean>
+</beans>

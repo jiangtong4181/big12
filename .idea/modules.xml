@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/big12.iml" filepath="$PROJECT_DIR$/big12.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javatest/javatest.iml" filepath="$PROJECT_DIR$/javatest/javatest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatiss/mybatiss.iml" filepath="$PROJECT_DIR$/mybatiss/mybatiss.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myhadoop/myhadoop.iml" filepath="$PROJECT_DIR$/myhadoop/myhadoop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myhbase/myhbase.iml" filepath="$PROJECT_DIR$/myhbase/myhbase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring/spring.iml" filepath="$PROJECT_DIR$/spring/spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springmvc/springmvc.iml" filepath="$PROJECT_DIR$/springmvc/springmvc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ssm/ssm.iml" filepath="$PROJECT_DIR$/ssm/ssm.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- 定义名字空间 -->
+<mapper namespace="areas">
+<insert id="insert" useGeneratedKeys="true" keyProperty="id">
+    insert into areas(areaname,pid) values (#{areaname},#{parentarea.id})
+</insert>
+    <select id="select" resultMap="rmarea">
+        select
+          a.id aid,a.areaname aareaname,b.id bid,b.areaname bareaname,c.id cid,c.areaname careaname
+        from
+          areas a left outer join areas b on b.pid=a.id
+          left outer join areas c on b.id=c.pid
+        where a.id=#{id};
+    </select>
+    <resultMap id="rmarea" type="_Area">
+        <id column="aid" property="id"/>
+
+    </resultMap>
+</mapper>
