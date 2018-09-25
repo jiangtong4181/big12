@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="javatest" />
+        <module name="my1" />
         <module name="mybatiss" />
         <module name="myhadoop" />
         <module name="myhbase" />
@@ -23,6 +24,7 @@
       <module name="music164-log-dataETL" target="1.5" />
       <module name="MusicEtlTest" target="1.5" />
       <module name="musicgen" target="7" />
+      <module name="my1" target="1.5" />
       <module name="myavro" target="1.5" />
       <module name="mybatis" target="1.5" />
       <module name="mybatiss" target="1.5" />
